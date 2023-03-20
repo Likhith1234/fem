@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 1em;
+    background-color: gainsboro;
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+    min-height: 400px;
+    max-height: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+label {
+    margin: .3em;
+}
+
+input, select {
+    margin-left: .3em;
+    padding: .3em;
+    border: none;
+    outline: none;
+}
+
+.submit-options {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    justify-content: space-evenly;
+}
+
+.submit, button {
+    padding: .7em;
+    background-color: rgb(74, 74, 234);
+    margin: .5em;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+}
+
+.submit:hover, button:hover, select:hover {
+    cursor: pointer;
+}
+
+.submit:hover, button:hover {
+    transform: scale(.9, .9);
+}
+
+button:nth-child(2) {
+    background-color: red;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(115, 115, 186);
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+nav {
+    width: 40%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+  list-style: none;  
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: rgb(128, 232, 232);
+    font-weight: bolder;
+}
